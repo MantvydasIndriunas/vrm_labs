@@ -1,0 +1,38 @@
+[gd_scene load_steps=3 format=3 uid="uid://dclr43stc3o7g"]
+
+[sub_resource type="BoxMesh" id="BoxMesh_wvidb"]
+
+[sub_resource type="BoxMesh" id="BoxMesh_420yo"]
+
+[node name="OfficeRoom" type="Node3D"]
+
+[node name="DirectionalLight3D" type="DirectionalLight3D" parent="."]
+transform = Transform3D(0.866025, -0.353553, 0.353553, 0, 0.707107, 0.707107, -0.5, -0.612372, 0.612372, 0, 0, 0)
+
+[node name="Floor" type="MeshInstance3D" parent="."]
+transform = Transform3D(4, 0, 0, 0, 0.1, 0, 0, 0, 3, 0, 0, 0)
+mesh = SubResource("BoxMesh_wvidb")
+
+[node name="Floor2" type="MeshInstance3D" parent="."]
+transform = Transform3D(4, 0, 0, 0, 0.1, 0, 0, 0, 3, 4, 0, 0)
+mesh = SubResource("BoxMesh_wvidb")
+
+[node name="Floor3" type="MeshInstance3D" parent="."]
+transform = Transform3D(4, 0, 0, 0, 0.1, 0, 0, 0, 3, 4, 0, 3)
+mesh = SubResource("BoxMesh_wvidb")
+
+[node name="Floor4" type="MeshInstance3D" parent="."]
+transform = Transform3D(4, 0, 0, 0, 0.1, 0, 0, 0, 3, 0, 0, 3)
+mesh = SubResource("BoxMesh_wvidb")
+
+[node name="Wall" type="MeshInstance3D" parent="."]
+transform = Transform3D(4, 0, 0, 0, 2.8, 0, 0, 0, 0.1, 0, 1.35, -1.5)
+mesh = SubResource("BoxMesh_420yo")
+
+[node name="Wall3" type="MeshInstance3D" parent="."]
+transform = Transform3D(-1.74846e-07, 0, 0.1, 0, 2.8, 0, -4, 0, -4.37114e-09, -2, 1.35, 0.5)
+mesh = SubResource("BoxMesh_420yo")
+
+[node name="Wall2" type="MeshInstance3D" parent="."]
+transform = Transform3D(4, 0, 0, 0, 2.8, 0, 0, 0, 0.1, 4, 1.35, -1.5)
+mesh = SubResource("BoxMesh_420yo")

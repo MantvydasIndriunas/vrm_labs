@@ -11,5 +11,6 @@ config_version=5
 [application]
 
 config/name="VRM_Labs"
+run/main_scene="res://office_room.tscn"
 config/features=PackedStringArray("4.4", "Forward Plus")
 config/icon="res://icon.svg"
