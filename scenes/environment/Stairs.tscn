@@ -1,0 +1,5 @@
+[gd_scene load_steps=2 format=3 uid="uid://byslhy7fdejwi"]
+
+[ext_resource type="PackedScene" uid="uid://b6dxclop46gt5" path="res://assets/gltf/stairs_wood.gltf" id="1_bakqb"]
+
+[node name="stairs_wood2" instance=ExtResource("1_bakqb")]

@@ -1,0 +1,5 @@
+[gd_scene load_steps=2 format=3 uid="uid://bn4wf1c78dt41"]
+
+[ext_resource type="PackedScene" uid="uid://ba0gsky8chvdb" path="res://assets/gltf/bed_frame.gltf" id="1_epe67"]
+
+[node name="bed_frame2" instance=ExtResource("1_epe67")]

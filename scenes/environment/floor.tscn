@@ -1,0 +1,5 @@
+[gd_scene load_steps=2 format=3 uid="uid://dcfnslndga10d"]
+
+[ext_resource type="PackedScene" uid="uid://cmsdkrja8mxyq" path="res://assets/gltf/floor_tile_large.gltf" id="1_1rvl0"]
+
+[node name="floor_tile_large2" instance=ExtResource("1_1rvl0")]

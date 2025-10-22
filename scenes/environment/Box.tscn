@@ -1,0 +1,5 @@
+[gd_scene load_steps=2 format=3 uid="uid://bj54r738gngih"]
+
+[ext_resource type="PackedScene" uid="uid://dw5mdo03dmejv" path="res://assets/gltf/box_large.gltf" id="1_o6fmf"]
+
+[node name="box_large2" instance=ExtResource("1_o6fmf")]

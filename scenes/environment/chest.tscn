@@ -1,0 +1,5 @@
+[gd_scene load_steps=2 format=3 uid="uid://c85kgycdpux3x"]
+
+[ext_resource type="PackedScene" uid="uid://c1tgk3enyb157" path="res://assets/gltf/trunk_large_A.gltf" id="1_7jq7v"]
+
+[node name="trunk_large_A2" instance=ExtResource("1_7jq7v")]
